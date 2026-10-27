@@ -1,0 +1,2164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e486bd63b526d93aea317d5779a17f03 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e486bd63b526d93aea317d5779a17f03" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e486bd63b526d93aea317d5779a17f03 = L.map(
+                "map_e486bd63b526d93aea317d5779a17f03",
+                {
+                    center: [31.2626, -7.762799999999999],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_e486bd63b526d93aea317d5779a17f03);
+
+            
+
+        
+    
+            var tile_layer_2850fa3e08663168ace2dc8b2301a36f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2850fa3e08663168ace2dc8b2301a36f.addTo(map_e486bd63b526d93aea317d5779a17f03);
+        
+    
+            map_e486bd63b526d93aea317d5779a17f03.fitBounds(
+                [[9.9252, -98.5456], [52.6, 83.02]],
+                {"padding": [30, 30]}
+            );
+        
+    
+            var marker_cluster_7194e41758f485df733c620e1dc9cf1b = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_2cb49e119b0428526043cee7202e4c12 = L.marker(
+                [48.0742, 11.2667],
+                {
+}
+            ).addTo(marker_cluster_7194e41758f485df733c620e1dc9cf1b);
+        
+    
+            var icon_115e8112efef807d5da08720743bf363 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_28b914fc79e1eb61552ea9a1f6f148bf = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_9d73530fbd6e3edd743fd0179327dada = $(`<div id="html_9d73530fbd6e3edd743fd0179327dada" style="width: 100.0%; height: 100.0%;"><b>Oberpfaffenhofen</b> → Oberpfaffenhofen, Weßling, Bavaria, Germany<br><i>village</i> · de · conf 1.00 · 1 candidate(s)<br><small>48.0742, 11.2667 · en-1 [en]</small><br><small>…The DLR Earth Observation Center in Oberpfaffenhofen, near Munich, processes Sentinel-2 scenes of the Ammersee a…</small></div>`)[0];
+                popup_28b914fc79e1eb61552ea9a1f6f148bf.setContent(html_9d73530fbd6e3edd743fd0179327dada);
+            
+        
+
+        marker_2cb49e119b0428526043cee7202e4c12.bindPopup(popup_28b914fc79e1eb61552ea9a1f6f148bf)
+        ;
+
+        
+    
+    
+            marker_2cb49e119b0428526043cee7202e4c12.bindTooltip(
+                `<div>
+                     Oberpfaffenhofen (en)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2cb49e119b0428526043cee7202e4c12.setIcon(icon_115e8112efef807d5da08720743bf363);
+            
+    
+            var marker_808de83397651beb89c86d550bfb19f0 = L.marker(
+                [48.1371, 11.5754],
+                {
+}
+            ).addTo(marker_cluster_7194e41758f485df733c620e1dc9cf1b);
+        
+    
+            var icon_8606d1b9a4546f23d8eb13ab54fff732 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f3387e3d96317cca30a3a93b92577287 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_96fecf2b17f30a9a88b5df1187363cf5 = $(`<div id="html_96fecf2b17f30a9a88b5df1187363cf5" style="width: 100.0%; height: 100.0%;"><b>Munich</b> → München, Bavaria, Germany<br><i>city</i> · de · conf 1.00 · 1 candidate(s)<br><small>48.1371, 11.5754 · en-1 [en]</small><br><small>…The DLR Earth Observation Center in Oberpfaffenhofen, near Munich, processes Sentinel-2 scenes of the Ammersee and the rest o…</small></div>`)[0];
+                popup_f3387e3d96317cca30a3a93b92577287.setContent(html_96fecf2b17f30a9a88b5df1187363cf5);
+            
+        
+
+        marker_808de83397651beb89c86d550bfb19f0.bindPopup(popup_f3387e3d96317cca30a3a93b92577287)
+        ;
+
+        
+    
+    
+            marker_808de83397651beb89c86d550bfb19f0.bindTooltip(
+                `<div>
+                     Munich (en)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_808de83397651beb89c86d550bfb19f0.setIcon(icon_8606d1b9a4546f23d8eb13ab54fff732);
+            
+    
+            var marker_9bf39fc69d43337b061ad9213b38c04f = L.marker(
+                [48.0, 11.1167],
+                {
+}
+            ).addTo(marker_cluster_7194e41758f485df733c620e1dc9cf1b);
+        
+    
+            var icon_b5a4bba28a4e8b13f75ebb362a4793fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_863e18fcc88805274980557c4eb979c8 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_44e055cb50122aa4d3f2e97a188937e6 = $(`<div id="html_44e055cb50122aa4d3f2e97a188937e6" style="width: 100.0%; height: 100.0%;"><b>Ammersee</b> → Ammersee, Bavaria, Germany<br><i>water</i> · de · conf 1.00 · 1 candidate(s)<br><small>48.0000, 11.1167 · en-1 [en]</small><br><small>…affenhofen, near Munich, processes Sentinel-2 scenes of the Ammersee and the rest of Bavaria.…</small></div>`)[0];
+                popup_863e18fcc88805274980557c4eb979c8.setContent(html_44e055cb50122aa4d3f2e97a188937e6);
+            
+        
+
+        marker_9bf39fc69d43337b061ad9213b38c04f.bindPopup(popup_863e18fcc88805274980557c4eb979c8)
+        ;
+
+        
+    
+    
+            marker_9bf39fc69d43337b061ad9213b38c04f.bindTooltip(
+                `<div>
+                     Ammersee (en)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9bf39fc69d43337b061ad9213b38c04f.setIcon(icon_b5a4bba28a4e8b13f75ebb362a4793fe);
+            
+    
+            var marker_85beb82cba4088af9f10ee7550ed94d3 = L.marker(
+                [48.9468, 11.4039],
+                {
+}
+            ).addTo(marker_cluster_7194e41758f485df733c620e1dc9cf1b);
+        
+    
+            var icon_de0747b08494e59751071d10c1d8b387 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_40330322f4f8c3f80025fa494368d7c4 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_a12ca80685996820bce78b4d689a66d8 = $(`<div id="html_a12ca80685996820bce78b4d689a66d8" style="width: 100.0%; height: 100.0%;"><b>Bavaria</b> → Bayern, Germany<br><i>state</i> · de · conf 1.00 · 1 candidate(s)<br><small>48.9468, 11.4039 · en-1 [en]</small><br><small>…processes Sentinel-2 scenes of the Ammersee and the rest of Bavaria.…</small></div>`)[0];
+                popup_40330322f4f8c3f80025fa494368d7c4.setContent(html_a12ca80685996820bce78b4d689a66d8);
+            
+        
+
+        marker_85beb82cba4088af9f10ee7550ed94d3.bindPopup(popup_40330322f4f8c3f80025fa494368d7c4)
+        ;
+
+        
+    
+    
+            marker_85beb82cba4088af9f10ee7550ed94d3.bindTooltip(
+                `<div>
+                     Bavaria (en)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_85beb82cba4088af9f10ee7550ed94d3.setIcon(icon_de0747b08494e59751071d10c1d8b387);
+            
+    
+            var marker_281de51896bd61bcfbf80d639c8c698b = L.marker(
+                [13.0827, 80.2707],
+                {
+}
+            ).addTo(marker_cluster_7194e41758f485df733c620e1dc9cf1b);
+        
+    
+            var icon_1e5361cb1ddb0bf71527901b50e3a65d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8c868224e5031ee9d80c10c03daa31dd = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_fef401659a2dac757382a30ae281e6f5 = $(`<div id="html_fef401659a2dac757382a30ae281e6f5" style="width: 100.0%; height: 100.0%;"><b>Chennai</b> → Chennai, Tamil Nadu, India<br><i>city</i> · in · conf 1.00 · 1 candidate(s)<br><small>13.0827, 80.2707 · en-2 [en]</small><br><small>…After the cyclone, relief teams travelled from Chennai to Madurai and Kanchipuram, while analysts in Hyderabad map…</small></div>`)[0];
+                popup_8c868224e5031ee9d80c10c03daa31dd.setContent(html_fef401659a2dac757382a30ae281e6f5);
+            
+        
+
+        marker_281de51896bd61bcfbf80d639c8c698b.bindPopup(popup_8c868224e5031ee9d80c10c03daa31dd)
+        ;
+
+        
+    
+    
+            marker_281de51896bd61bcfbf80d639c8c698b.bindTooltip(
+                `<div>
+                     Chennai (en)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_281de51896bd61bcfbf80d639c8c698b.setIcon(icon_1e5361cb1ddb0bf71527901b50e3a65d);
+            
+    
+            var marker_ac3ee96e5d1c4da7a21d437d90306950 = L.marker(
+                [9.9252, 78.1198],
+                {
+}
+            ).addTo(marker_cluster_7194e41758f485df733c620e1dc9cf1b);
+        
+    
+            var icon_4f391ec068653880d7575303504860db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d55f1e8cb5a86e56591666a178ea7168 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_9a99f3a93809fdef83c6e3bb634071a4 = $(`<div id="html_9a99f3a93809fdef83c6e3bb634071a4" style="width: 100.0%; height: 100.0%;"><b>Madurai</b> → Madurai, Tamil Nadu, India<br><i>city</i> · in · conf 1.00 · 1 candidate(s)<br><small>9.9252, 78.1198 · en-2 [en]</small><br><small>…After the cyclone, relief teams travelled from Chennai to Madurai and Kanchipuram, while analysts in Hyderabad mapped flood e…</small></div>`)[0];
+                popup_d55f1e8cb5a86e56591666a178ea7168.setContent(html_9a99f3a93809fdef83c6e3bb634071a4);
+            
+        
+
+        marker_ac3ee96e5d1c4da7a21d437d90306950.bindPopup(popup_d55f1e8cb5a86e56591666a178ea7168)
+        ;
+
+        
+    
+    
+            marker_ac3ee96e5d1c4da7a21d437d90306950.bindTooltip(
+                `<div>
+                     Madurai (en)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ac3ee96e5d1c4da7a21d437d90306950.setIcon(icon_4f391ec068653880d7575303504860db);
+            
+    
+            var marker_0cc5d3ffcc19254258ad12000d058e21 = L.marker(
+                [17.385, 78.4867],
+                {
+}
+            ).addTo(marker_cluster_7194e41758f485df733c620e1dc9cf1b);
+        
+    
+            var icon_d083a61a053c5a96eaff7dce53374afa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d322ade9fca48cdf36843a9b8053938a = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_36583811752da98d88da1347d42d0613 = $(`<div id="html_36583811752da98d88da1347d42d0613" style="width: 100.0%; height: 100.0%;"><b>Hyderabad</b> → Hyderabad, Telangana, India<br><i>city</i> · in · conf 0.65 · 2 candidate(s)<br><small>17.3850, 78.4867 · en-2 [en]</small><br><small>… from Chennai to Madurai and Kanchipuram, while analysts in Hyderabad mapped flood extents across Tamil Nadu.…</small></div>`)[0];
+                popup_d322ade9fca48cdf36843a9b8053938a.setContent(html_36583811752da98d88da1347d42d0613);
+            
+        
+
+        marker_0cc5d3ffcc19254258ad12000d058e21.bindPopup(popup_d322ade9fca48cdf36843a9b8053938a)
+        ;
+
+        
+    
+    
+            marker_0cc5d3ffcc19254258ad12000d058e21.bindTooltip(
+                `<div>
+                     Hyderabad (en)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0cc5d3ffcc19254258ad12000d058e21.setIcon(icon_d083a61a053c5a96eaff7dce53374afa);
+            
+    
+            var marker_c8c00a2fe8883e037c679244833954be = L.marker(
+                [10.9094, 78.3665],
+                {
+}
+            ).addTo(marker_cluster_7194e41758f485df733c620e1dc9cf1b);
+        
+    
+            var icon_c434c266ed078d77684c9ae6f6af7a25 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7ea3a93407725ece239a2c4bce28f74a = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_a4275a3deac1250fc46e23426c760c95 = $(`<div id="html_a4275a3deac1250fc46e23426c760c95" style="width: 100.0%; height: 100.0%;"><b>Tamil Nadu</b> → Tamil Nadu, India<br><i>state</i> · in · conf 1.00 · 1 candidate(s)<br><small>10.9094, 78.3665 · en-2 [en]</small><br><small>…am, while analysts in Hyderabad mapped flood extents across Tamil Nadu.…</small></div>`)[0];
+                popup_7ea3a93407725ece239a2c4bce28f74a.setContent(html_a4275a3deac1250fc46e23426c760c95);
+            
+        
+
+        marker_c8c00a2fe8883e037c679244833954be.bindPopup(popup_7ea3a93407725ece239a2c4bce28f74a)
+        ;
+
+        
+    
+    
+            marker_c8c00a2fe8883e037c679244833954be.bindTooltip(
+                `<div>
+                     Tamil Nadu (en)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c8c00a2fe8883e037c679244833954be.setIcon(icon_c434c266ed078d77684c9ae6f6af7a25);
+            
+    
+            var marker_dae5265509fb4db57e2c7846821dfe1d = L.marker(
+                [33.6609, -95.5555],
+                {
+}
+            ).addTo(marker_cluster_7194e41758f485df733c620e1dc9cf1b);
+        
+    
+            var icon_5b896bb2f08f4a1206d38abe3659912b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1032731bf8dd5be2784237f7f1788fed = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_01ef222754f621e99bf611af5b50a05a = $(`<div id="html_01ef222754f621e99bf611af5b50a05a" style="width: 100.0%; height: 100.0%;"><b>Paris</b> → Paris, Lamar County, Texas, United States<br><i>town</i> · us · conf 0.62 · 3 candidate(s)<br><small>33.6609, -95.5555 · en-3 [en]</small><br><small>…The storm passed over Paris, Texas, about 160 km north-east of Dallas.…</small></div>`)[0];
+                popup_1032731bf8dd5be2784237f7f1788fed.setContent(html_01ef222754f621e99bf611af5b50a05a);
+            
+        
+
+        marker_dae5265509fb4db57e2c7846821dfe1d.bindPopup(popup_1032731bf8dd5be2784237f7f1788fed)
+        ;
+
+        
+    
+    
+            marker_dae5265509fb4db57e2c7846821dfe1d.bindTooltip(
+                `<div>
+                     Paris (en)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dae5265509fb4db57e2c7846821dfe1d.setIcon(icon_5b896bb2f08f4a1206d38abe3659912b);
+            
+    
+            var marker_5734c6cdab57859aa3c14ca5f17b55d1 = L.marker(
+                [31.2639, -98.5456],
+                {
+}
+            ).addTo(marker_cluster_7194e41758f485df733c620e1dc9cf1b);
+        
+    
+            var icon_28774751a82ec41d5a74766cbbf29b6e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e9371433a74a4a930faf151f575caa7e = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_a771af665b2a915ecfdba37aaf0fbb2a = $(`<div id="html_a771af665b2a915ecfdba37aaf0fbb2a" style="width: 100.0%; height: 100.0%;"><b>Texas</b> → Texas, United States<br><i>state</i> · us · conf 1.00 · 1 candidate(s)<br><small>31.2639, -98.5456 · en-3 [en]</small><br><small>…The storm passed over Paris, Texas, about 160 km north-east of Dallas.…</small></div>`)[0];
+                popup_e9371433a74a4a930faf151f575caa7e.setContent(html_a771af665b2a915ecfdba37aaf0fbb2a);
+            
+        
+
+        marker_5734c6cdab57859aa3c14ca5f17b55d1.bindPopup(popup_e9371433a74a4a930faf151f575caa7e)
+        ;
+
+        
+    
+    
+            marker_5734c6cdab57859aa3c14ca5f17b55d1.bindTooltip(
+                `<div>
+                     Texas (en)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5734c6cdab57859aa3c14ca5f17b55d1.setIcon(icon_28774751a82ec41d5a74766cbbf29b6e);
+            
+    
+            var marker_239c3777eb39e16fe88715df68f2a880 = L.marker(
+                [32.7763, -96.7969],
+                {
+}
+            ).addTo(marker_cluster_7194e41758f485df733c620e1dc9cf1b);
+        
+    
+            var icon_ffe4a2582508ef977ba75a5fa6260d41 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eeb9be2a7f817d1ecd7b0804a8081c50 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_359d3ca2b6ecaef7aa768302785e01b8 = $(`<div id="html_359d3ca2b6ecaef7aa768302785e01b8" style="width: 100.0%; height: 100.0%;"><b>Dallas</b> → Dallas, Texas, United States<br><i>city</i> · us · conf 1.00 · 1 candidate(s)<br><small>32.7763, -96.7969 · en-3 [en]</small><br><small>… storm passed over Paris, Texas, about 160 km north-east of Dallas.…</small></div>`)[0];
+                popup_eeb9be2a7f817d1ecd7b0804a8081c50.setContent(html_359d3ca2b6ecaef7aa768302785e01b8);
+            
+        
+
+        marker_239c3777eb39e16fe88715df68f2a880.bindPopup(popup_eeb9be2a7f817d1ecd7b0804a8081c50)
+        ;
+
+        
+    
+    
+            marker_239c3777eb39e16fe88715df68f2a880.bindTooltip(
+                `<div>
+                     Dallas (en)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_239c3777eb39e16fe88715df68f2a880.setIcon(icon_ffe4a2582508ef977ba75a5fa6260d41);
+            
+    
+            marker_cluster_7194e41758f485df733c620e1dc9cf1b.addTo(map_e486bd63b526d93aea317d5779a17f03);
+        
+    
+            var marker_cluster_260a99c3e1191190a4273c099490e471 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_26c3c4be273866e0f91e90eab2b6fd6f = L.marker(
+                [50.9384, 6.9599],
+                {
+}
+            ).addTo(marker_cluster_260a99c3e1191190a4273c099490e471);
+        
+    
+            var icon_3972aedc8f35baae8ffe52a85465f52a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0d5d7fe51a0ebee16f817a36107d76d5 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_e722dfb6fdd76ddc80f60ae5b12022a6 = $(`<div id="html_e722dfb6fdd76ddc80f60ae5b12022a6" style="width: 100.0%; height: 100.0%;"><b>Köln</b> → Köln, North Rhine-Westphalia, Germany<br><i>city</i> · de · conf 1.00 · 1 candidate(s)<br><small>50.9384, 6.9599 · de-1 [de]</small><br><small>…che Zentrum für Luft- und Raumfahrt hat seinen Hauptsitz in Köln und betreibt Standorte in Berlin, Braunschweig und Oberpfaf…</small></div>`)[0];
+                popup_0d5d7fe51a0ebee16f817a36107d76d5.setContent(html_e722dfb6fdd76ddc80f60ae5b12022a6);
+            
+        
+
+        marker_26c3c4be273866e0f91e90eab2b6fd6f.bindPopup(popup_0d5d7fe51a0ebee16f817a36107d76d5)
+        ;
+
+        
+    
+    
+            marker_26c3c4be273866e0f91e90eab2b6fd6f.bindTooltip(
+                `<div>
+                     Köln (de)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_26c3c4be273866e0f91e90eab2b6fd6f.setIcon(icon_3972aedc8f35baae8ffe52a85465f52a);
+            
+    
+            var marker_6eb4862df700158ca939cb7b42aadecf = L.marker(
+                [52.517, 13.3889],
+                {
+}
+            ).addTo(marker_cluster_260a99c3e1191190a4273c099490e471);
+        
+    
+            var icon_c2c004451db3e618b2380569c17dbfe2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8081b555cb5e791df2f7f46fd5aa409c = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_958d58b78b17789cc2409f357824bedd = $(`<div id="html_958d58b78b17789cc2409f357824bedd" style="width: 100.0%; height: 100.0%;"><b>Berlin</b> → Berlin, Germany<br><i>city</i> · de · conf 0.90 · 2 candidate(s)<br><small>52.5170, 13.3889 · de-1 [de]</small><br><small>…ahrt hat seinen Hauptsitz in Köln und betreibt Standorte in Berlin, Braunschweig und Oberpfaffenhofen.…</small></div>`)[0];
+                popup_8081b555cb5e791df2f7f46fd5aa409c.setContent(html_958d58b78b17789cc2409f357824bedd);
+            
+        
+
+        marker_6eb4862df700158ca939cb7b42aadecf.bindPopup(popup_8081b555cb5e791df2f7f46fd5aa409c)
+        ;
+
+        
+    
+    
+            marker_6eb4862df700158ca939cb7b42aadecf.bindTooltip(
+                `<div>
+                     Berlin (de)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6eb4862df700158ca939cb7b42aadecf.setIcon(icon_c2c004451db3e618b2380569c17dbfe2);
+            
+    
+            var marker_695d46c2d3accbd17e139daaf9d33e65 = L.marker(
+                [52.2646, 10.5236],
+                {
+}
+            ).addTo(marker_cluster_260a99c3e1191190a4273c099490e471);
+        
+    
+            var icon_24c72c7825b47e4d93afa250bb73c903 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_241d52476b5167303ac4fd49c1ea2e65 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_90aa550b34e076db2f434940414127ec = $(`<div id="html_90aa550b34e076db2f434940414127ec" style="width: 100.0%; height: 100.0%;"><b>Braunschweig</b> → Braunschweig, Lower Saxony, Germany<br><i>city</i> · de · conf 1.00 · 1 candidate(s)<br><small>52.2646, 10.5236 · de-1 [de]</small><br><small>… seinen Hauptsitz in Köln und betreibt Standorte in Berlin, Braunschweig und Oberpfaffenhofen.…</small></div>`)[0];
+                popup_241d52476b5167303ac4fd49c1ea2e65.setContent(html_90aa550b34e076db2f434940414127ec);
+            
+        
+
+        marker_695d46c2d3accbd17e139daaf9d33e65.bindPopup(popup_241d52476b5167303ac4fd49c1ea2e65)
+        ;
+
+        
+    
+    
+            marker_695d46c2d3accbd17e139daaf9d33e65.bindTooltip(
+                `<div>
+                     Braunschweig (de)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_695d46c2d3accbd17e139daaf9d33e65.setIcon(icon_24c72c7825b47e4d93afa250bb73c903);
+            
+    
+            var marker_a74f71c3a4831f69f251a8f68d7a4f7e = L.marker(
+                [48.0742, 11.2667],
+                {
+}
+            ).addTo(marker_cluster_260a99c3e1191190a4273c099490e471);
+        
+    
+            var icon_8163236e1a516a214e1bd7f9dec31103 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9764315d69ec8211cf92de9c4ee34f5b = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_c8ac58a7d54ebb36b1f6782716f13efa = $(`<div id="html_c8ac58a7d54ebb36b1f6782716f13efa" style="width: 100.0%; height: 100.0%;"><b>Oberpfaffenhofen</b> → Oberpfaffenhofen, Weßling, Bavaria, Germany<br><i>village</i> · de · conf 1.00 · 1 candidate(s)<br><small>48.0742, 11.2667 · de-1 [de]</small><br><small>… in Köln und betreibt Standorte in Berlin, Braunschweig und Oberpfaffenhofen.…</small></div>`)[0];
+                popup_9764315d69ec8211cf92de9c4ee34f5b.setContent(html_c8ac58a7d54ebb36b1f6782716f13efa);
+            
+        
+
+        marker_a74f71c3a4831f69f251a8f68d7a4f7e.bindPopup(popup_9764315d69ec8211cf92de9c4ee34f5b)
+        ;
+
+        
+    
+    
+            marker_a74f71c3a4831f69f251a8f68d7a4f7e.bindTooltip(
+                `<div>
+                     Oberpfaffenhofen (de)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a74f71c3a4831f69f251a8f68d7a4f7e.setIcon(icon_8163236e1a516a214e1bd7f9dec31103);
+            
+    
+            var marker_28b27489959d53d5a774236a1bb3a8ff = L.marker(
+                [52.6, 14.6],
+                {
+}
+            ).addTo(marker_cluster_260a99c3e1191190a4273c099490e471);
+        
+    
+            var icon_b1bf91c62a7dc6c1b42cfa51019ffae7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fffabbbc3e9a0e3ee856f3bcd37b1fd6 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_8c7f888d4fdc7406ce7101e4325af195 = $(`<div id="html_8c7f888d4fdc7406ce7101e4325af195" style="width: 100.0%; height: 100.0%;"><b>Oder</b> → Oder, Germany<br><i>river</i> · de · conf 1.00 · 1 candidate(s)<br><small>52.6000, 14.6000 · de-2 [de]</small><br><small>…Das Hochwasser an der Oder erreichte Frankfurt und Słubice; Brandenburg rief den Katas…</small></div>`)[0];
+                popup_fffabbbc3e9a0e3ee856f3bcd37b1fd6.setContent(html_8c7f888d4fdc7406ce7101e4325af195);
+            
+        
+
+        marker_28b27489959d53d5a774236a1bb3a8ff.bindPopup(popup_fffabbbc3e9a0e3ee856f3bcd37b1fd6)
+        ;
+
+        
+    
+    
+            marker_28b27489959d53d5a774236a1bb3a8ff.bindTooltip(
+                `<div>
+                     Oder (de)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_28b27489959d53d5a774236a1bb3a8ff.setIcon(icon_b1bf91c62a7dc6c1b42cfa51019ffae7);
+            
+    
+            var marker_a08855c69c638176457eb347af67eea0 = L.marker(
+                [52.3471, 14.5506],
+                {
+}
+            ).addTo(marker_cluster_260a99c3e1191190a4273c099490e471);
+        
+    
+            var icon_461de847e44ddb179f512dc1c94b0b4e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_824290bd165a3ba3d60b6419e6412975 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_c5f7ef2e945ba38be2b0dc1c562dc403 = $(`<div id="html_c5f7ef2e945ba38be2b0dc1c562dc403" style="width: 100.0%; height: 100.0%;"><b>Frankfurt</b> → Frankfurt (Oder), Brandenburg, Germany<br><i>city</i> · de · conf 0.85 · 2 candidate(s)<br><small>52.3471, 14.5506 · de-2 [de]</small><br><small>…Das Hochwasser an der Oder erreichte Frankfurt und Słubice; Brandenburg rief den Katastrophenfall aus.…</small></div>`)[0];
+                popup_824290bd165a3ba3d60b6419e6412975.setContent(html_c5f7ef2e945ba38be2b0dc1c562dc403);
+            
+        
+
+        marker_a08855c69c638176457eb347af67eea0.bindPopup(popup_824290bd165a3ba3d60b6419e6412975)
+        ;
+
+        
+    
+    
+            marker_a08855c69c638176457eb347af67eea0.bindTooltip(
+                `<div>
+                     Frankfurt (de)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a08855c69c638176457eb347af67eea0.setIcon(icon_461de847e44ddb179f512dc1c94b0b4e);
+            
+    
+            var marker_3a1f40741f22f0da341a6b0c3f02b592 = L.marker(
+                [52.3502, 14.5606],
+                {
+}
+            ).addTo(marker_cluster_260a99c3e1191190a4273c099490e471);
+        
+    
+            var icon_bc68c398afe18abb4d5a01a87c41e1ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_609ae4d3bac84f70bc76b5ea115787fc = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_426f2aee5a1ff846682ff23a5b0437bf = $(`<div id="html_426f2aee5a1ff846682ff23a5b0437bf" style="width: 100.0%; height: 100.0%;"><b>Słubice</b> → Słubice, Lubusz Voivodeship, Poland<br><i>town</i> · pl · conf 1.00 · 1 candidate(s)<br><small>52.3502, 14.5606 · de-2 [de]</small><br><small>…Das Hochwasser an der Oder erreichte Frankfurt und Słubice; Brandenburg rief den Katastrophenfall aus.…</small></div>`)[0];
+                popup_609ae4d3bac84f70bc76b5ea115787fc.setContent(html_426f2aee5a1ff846682ff23a5b0437bf);
+            
+        
+
+        marker_3a1f40741f22f0da341a6b0c3f02b592.bindPopup(popup_609ae4d3bac84f70bc76b5ea115787fc)
+        ;
+
+        
+    
+    
+            marker_3a1f40741f22f0da341a6b0c3f02b592.bindTooltip(
+                `<div>
+                     Słubice (de)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3a1f40741f22f0da341a6b0c3f02b592.setIcon(icon_bc68c398afe18abb4d5a01a87c41e1ff);
+            
+    
+            var marker_b62e11e835f7fa0b22e9866211b6cc12 = L.marker(
+                [52.4125, 12.5316],
+                {
+}
+            ).addTo(marker_cluster_260a99c3e1191190a4273c099490e471);
+        
+    
+            var icon_57c508c81f35b855f35c4801018b1672 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_753630d6b3b347a8aa494eb12cae892c = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_91898896b7d6bc63a7f81b03db0af2c9 = $(`<div id="html_91898896b7d6bc63a7f81b03db0af2c9" style="width: 100.0%; height: 100.0%;"><b>Brandenburg</b> → Brandenburg, Germany<br><i>state</i> · de · conf 0.78 · 2 candidate(s)<br><small>52.4125, 12.5316 · de-2 [de]</small><br><small>…Das Hochwasser an der Oder erreichte Frankfurt und Słubice; Brandenburg rief den Katastrophenfall aus.…</small></div>`)[0];
+                popup_753630d6b3b347a8aa494eb12cae892c.setContent(html_91898896b7d6bc63a7f81b03db0af2c9);
+            
+        
+
+        marker_b62e11e835f7fa0b22e9866211b6cc12.bindPopup(popup_753630d6b3b347a8aa494eb12cae892c)
+        ;
+
+        
+    
+    
+            marker_b62e11e835f7fa0b22e9866211b6cc12.bindTooltip(
+                `<div>
+                     Brandenburg (de)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b62e11e835f7fa0b22e9866211b6cc12.setIcon(icon_57c508c81f35b855f35c4801018b1672);
+            
+    
+            marker_cluster_260a99c3e1191190a4273c099490e471.addTo(map_e486bd63b526d93aea317d5779a17f03);
+        
+    
+            var marker_cluster_7645c5f2caa09d006b1a101e99e75988 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_54df4289c0646de353f588d085cb6985 = L.marker(
+                [13.0827, 80.2707],
+                {
+}
+            ).addTo(marker_cluster_7645c5f2caa09d006b1a101e99e75988);
+        
+    
+            var icon_1a6528a1c434121c69b1e48b869a348f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9b26788b9b42e95c411437758a05365d = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_ecd4994c6bf867aeb7f2025f855baedb = $(`<div id="html_ecd4994c6bf867aeb7f2025f855baedb" style="width: 100.0%; height: 100.0%;"><b>சென்னையில்</b> → Chennai, Tamil Nadu, India<br><i>city</i> · in · conf 1.00 · 1 candidate(s)<br><small>13.0827, 80.2707 · ta-1 [ta]</small><br><small>…சென்னையில் பெய்த கனமழையால் மதுரை மற்றும் கோயம்புத்தூர் பகுதிகளில் வெள்…</small></div>`)[0];
+                popup_9b26788b9b42e95c411437758a05365d.setContent(html_ecd4994c6bf867aeb7f2025f855baedb);
+            
+        
+
+        marker_54df4289c0646de353f588d085cb6985.bindPopup(popup_9b26788b9b42e95c411437758a05365d)
+        ;
+
+        
+    
+    
+            marker_54df4289c0646de353f588d085cb6985.bindTooltip(
+                `<div>
+                     சென்னையில் (ta)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_54df4289c0646de353f588d085cb6985.setIcon(icon_1a6528a1c434121c69b1e48b869a348f);
+            
+    
+            var marker_9f1b9565a2c01558f8d850434e27287e = L.marker(
+                [9.9252, 78.1198],
+                {
+}
+            ).addTo(marker_cluster_7645c5f2caa09d006b1a101e99e75988);
+        
+    
+            var icon_9227748bad2ae3eefe0efa29cda153c7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d9d88911bbcb71a4afab981194514f32 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_ee3c780bf90c56c921a4966a9a4e668c = $(`<div id="html_ee3c780bf90c56c921a4966a9a4e668c" style="width: 100.0%; height: 100.0%;"><b>மதுரை</b> → Madurai, Tamil Nadu, India<br><i>city</i> · in · conf 1.00 · 1 candidate(s)<br><small>9.9252, 78.1198 · ta-1 [ta]</small><br><small>…சென்னையில் பெய்த கனமழையால் மதுரை மற்றும் கோயம்புத்தூர் பகுதிகளில் வெள்ளம் ஏற்பட்டது.…</small></div>`)[0];
+                popup_d9d88911bbcb71a4afab981194514f32.setContent(html_ee3c780bf90c56c921a4966a9a4e668c);
+            
+        
+
+        marker_9f1b9565a2c01558f8d850434e27287e.bindPopup(popup_d9d88911bbcb71a4afab981194514f32)
+        ;
+
+        
+    
+    
+            marker_9f1b9565a2c01558f8d850434e27287e.bindTooltip(
+                `<div>
+                     மதுரை (ta)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9f1b9565a2c01558f8d850434e27287e.setIcon(icon_9227748bad2ae3eefe0efa29cda153c7);
+            
+    
+            var marker_158a4aeb329864193019bfe932fe1d20 = L.marker(
+                [11.0168, 76.9558],
+                {
+}
+            ).addTo(marker_cluster_7645c5f2caa09d006b1a101e99e75988);
+        
+    
+            var icon_328d40fe8c4baa8510cd98f46024e077 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c3c07383890bca84007f2cb763ce30dc = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_efe58fb8c0bf3d2925af557850c023e8 = $(`<div id="html_efe58fb8c0bf3d2925af557850c023e8" style="width: 100.0%; height: 100.0%;"><b>கோயம்புத்தூர்</b> → Coimbatore, Tamil Nadu, India<br><i>city</i> · in · conf 1.00 · 1 candidate(s)<br><small>11.0168, 76.9558 · ta-1 [ta]</small><br><small>…சென்னையில் பெய்த கனமழையால் மதுரை மற்றும் கோயம்புத்தூர் பகுதிகளில் வெள்ளம் ஏற்பட்டது.…</small></div>`)[0];
+                popup_c3c07383890bca84007f2cb763ce30dc.setContent(html_efe58fb8c0bf3d2925af557850c023e8);
+            
+        
+
+        marker_158a4aeb329864193019bfe932fe1d20.bindPopup(popup_c3c07383890bca84007f2cb763ce30dc)
+        ;
+
+        
+    
+    
+            marker_158a4aeb329864193019bfe932fe1d20.bindTooltip(
+                `<div>
+                     கோயம்புத்தூர் (ta)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_158a4aeb329864193019bfe932fe1d20.setIcon(icon_328d40fe8c4baa8510cd98f46024e077);
+            
+    
+            var marker_8bb64b0a2fc4d78f3ab5bd40978c6c13 = L.marker(
+                [13.72, 80.23],
+                {
+}
+            ).addTo(marker_cluster_7645c5f2caa09d006b1a101e99e75988);
+        
+    
+            var icon_8d271862300b1fbcd6b34d0c6e88f01b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_23d58c8ec73120a3a736ff2d3e50b8d9 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_f6e7bbfa83482e53b3e30ecb3be91770 = $(`<div id="html_f6e7bbfa83482e53b3e30ecb3be91770" style="width: 100.0%; height: 100.0%;"><b>ஸ்ரீஹரிகோட்டாவிலிருந்து</b> → Sriharikota, Tirupati, Andhra Pradesh, India<br><i>island</i> · in · conf 1.00 · 1 candidate(s)<br><small>13.7200, 80.2300 · ta-2 [ta]</small><br><small>…இஸ்ரோ ஸ்ரீஹரிகோட்டாவிலிருந்து செயற்கைக்கோளை ஏவியது; பெங்களூரில் உள்ள கட்டுப்பாட்டு மையம் …</small></div>`)[0];
+                popup_23d58c8ec73120a3a736ff2d3e50b8d9.setContent(html_f6e7bbfa83482e53b3e30ecb3be91770);
+            
+        
+
+        marker_8bb64b0a2fc4d78f3ab5bd40978c6c13.bindPopup(popup_23d58c8ec73120a3a736ff2d3e50b8d9)
+        ;
+
+        
+    
+    
+            marker_8bb64b0a2fc4d78f3ab5bd40978c6c13.bindTooltip(
+                `<div>
+                     ஸ்ரீஹரிகோட்டாவிலிருந்து (ta)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8bb64b0a2fc4d78f3ab5bd40978c6c13.setIcon(icon_8d271862300b1fbcd6b34d0c6e88f01b);
+            
+    
+            var marker_be5f87701ede37649b3cce2413f788f2 = L.marker(
+                [12.9716, 77.5946],
+                {
+}
+            ).addTo(marker_cluster_7645c5f2caa09d006b1a101e99e75988);
+        
+    
+            var icon_f4b2592fc732c237183b4047278db5b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a5fc12c9f08b50d0396bb6ec60d8a7dc = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_58d2713fead89b88eab7ea7631e6b127 = $(`<div id="html_58d2713fead89b88eab7ea7631e6b127" style="width: 100.0%; height: 100.0%;"><b>பெங்களூரில்</b> → Bengaluru, Karnataka, India<br><i>city</i> · in · conf 1.00 · 1 candidate(s)<br><small>12.9716, 77.5946 · ta-2 [ta]</small><br><small>…இஸ்ரோ ஸ்ரீஹரிகோட்டாவிலிருந்து செயற்கைக்கோளை ஏவியது; பெங்களூரில் உள்ள கட்டுப்பாட்டு மையம் அதைக் கண்காணித்தது.…</small></div>`)[0];
+                popup_a5fc12c9f08b50d0396bb6ec60d8a7dc.setContent(html_58d2713fead89b88eab7ea7631e6b127);
+            
+        
+
+        marker_be5f87701ede37649b3cce2413f788f2.bindPopup(popup_a5fc12c9f08b50d0396bb6ec60d8a7dc)
+        ;
+
+        
+    
+    
+            marker_be5f87701ede37649b3cce2413f788f2.bindTooltip(
+                `<div>
+                     பெங்களூரில் (ta)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_be5f87701ede37649b3cce2413f788f2.setIcon(icon_f4b2592fc732c237183b4047278db5b9);
+            
+    
+            marker_cluster_7645c5f2caa09d006b1a101e99e75988.addTo(map_e486bd63b526d93aea317d5779a17f03);
+        
+    
+            var marker_cluster_7c92e1fa240a14970034f839dfc3cdce = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_f5e8d4f14a004dd8fe5f5230a2a191ab = L.marker(
+                [19.076, 72.8777],
+                {
+}
+            ).addTo(marker_cluster_7c92e1fa240a14970034f839dfc3cdce);
+        
+    
+            var icon_844f4a43b89848aa89d9a734bbea2af3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_45eb0118bb795d1cf9cf4d79a7f2a710 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_0c9855a7025f62605638e2e43740a0e0 = $(`<div id="html_0c9855a7025f62605638e2e43740a0e0" style="width: 100.0%; height: 100.0%;"><b>मुंबई</b> → Mumbai, Maharashtra, India<br><i>city</i> · in · conf 1.00 · 1 candidate(s)<br><small>19.0760, 72.8777 · hi-1 [hi]</small><br><small>…भारी बारिश के कारण मुंबई और पुणे में बाढ़ आ गई, जबकि महाराष्ट्र सरकार ने राहत कार्य …</small></div>`)[0];
+                popup_45eb0118bb795d1cf9cf4d79a7f2a710.setContent(html_0c9855a7025f62605638e2e43740a0e0);
+            
+        
+
+        marker_f5e8d4f14a004dd8fe5f5230a2a191ab.bindPopup(popup_45eb0118bb795d1cf9cf4d79a7f2a710)
+        ;
+
+        
+    
+    
+            marker_f5e8d4f14a004dd8fe5f5230a2a191ab.bindTooltip(
+                `<div>
+                     मुंबई (hi)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f5e8d4f14a004dd8fe5f5230a2a191ab.setIcon(icon_844f4a43b89848aa89d9a734bbea2af3);
+            
+    
+            var marker_a5a93ac46bfbbe13adc7696e6f8bcfdc = L.marker(
+                [18.5204, 73.8567],
+                {
+}
+            ).addTo(marker_cluster_7c92e1fa240a14970034f839dfc3cdce);
+        
+    
+            var icon_56208349556d81ff510356c83333ffdf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae5e6f103f92897be7391fed957ae78e = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_b055a672b5841ab0f5ec57a33c70aca5 = $(`<div id="html_b055a672b5841ab0f5ec57a33c70aca5" style="width: 100.0%; height: 100.0%;"><b>पुणे</b> → Pune, Maharashtra, India<br><i>city</i> · in · conf 1.00 · 1 candidate(s)<br><small>18.5204, 73.8567 · hi-1 [hi]</small><br><small>…भारी बारिश के कारण मुंबई और पुणे में बाढ़ आ गई, जबकि महाराष्ट्र सरकार ने राहत कार्य शुरू किय…</small></div>`)[0];
+                popup_ae5e6f103f92897be7391fed957ae78e.setContent(html_b055a672b5841ab0f5ec57a33c70aca5);
+            
+        
+
+        marker_a5a93ac46bfbbe13adc7696e6f8bcfdc.bindPopup(popup_ae5e6f103f92897be7391fed957ae78e)
+        ;
+
+        
+    
+    
+            marker_a5a93ac46bfbbe13adc7696e6f8bcfdc.bindTooltip(
+                `<div>
+                     पुणे (hi)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a5a93ac46bfbbe13adc7696e6f8bcfdc.setIcon(icon_56208349556d81ff510356c83333ffdf);
+            
+    
+            var marker_98141ea5e46e6ae2fee523ccbe619b99 = L.marker(
+                [19.7515, 75.7139],
+                {
+}
+            ).addTo(marker_cluster_7c92e1fa240a14970034f839dfc3cdce);
+        
+    
+            var icon_d2cd9aafff115ee53c1b2d43600c95f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd5181269b43483351addc508fe63bc8 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_cbaa20b2dc97f7f83db9fe50b3faf3eb = $(`<div id="html_cbaa20b2dc97f7f83db9fe50b3faf3eb" style="width: 100.0%; height: 100.0%;"><b>महाराष्ट्र</b> → Maharashtra, India<br><i>state</i> · in · conf 1.00 · 1 candidate(s)<br><small>19.7515, 75.7139 · hi-1 [hi]</small><br><small>…भारी बारिश के कारण मुंबई और पुणे में बाढ़ आ गई, जबकि महाराष्ट्र सरकार ने राहत कार्य शुरू किया।…</small></div>`)[0];
+                popup_dd5181269b43483351addc508fe63bc8.setContent(html_cbaa20b2dc97f7f83db9fe50b3faf3eb);
+            
+        
+
+        marker_98141ea5e46e6ae2fee523ccbe619b99.bindPopup(popup_dd5181269b43483351addc508fe63bc8)
+        ;
+
+        
+    
+    
+            marker_98141ea5e46e6ae2fee523ccbe619b99.bindTooltip(
+                `<div>
+                     महाराष्ट्र (hi)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_98141ea5e46e6ae2fee523ccbe619b99.setIcon(icon_d2cd9aafff115ee53c1b2d43600c95f3);
+            
+    
+            var marker_e1b3d6b7e90c6df720a4b7cac02bcd2f = L.marker(
+                [12.9716, 77.5946],
+                {
+}
+            ).addTo(marker_cluster_7c92e1fa240a14970034f839dfc3cdce);
+        
+    
+            var icon_d693c88216dc1cb5e6acbe7702d03a71 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1304a510c6f66622872ccfa9eb266cd7 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_aa59f2dfe8e70a215885b6de3d4fd0b6 = $(`<div id="html_aa59f2dfe8e70a215885b6de3d4fd0b6" style="width: 100.0%; height: 100.0%;"><b>बेंगलुरु</b> → Bengaluru, Karnataka, India<br><i>city</i> · in · conf 1.00 · 1 candidate(s)<br><small>12.9716, 77.5946 · hi-2 [hi]</small><br><small>…इसरो का मुख्यालय बेंगलुरु में है और उपग्रह श्रीहरिकोटा से प्रक्षेपित किए जाते हैं; वा…</small></div>`)[0];
+                popup_1304a510c6f66622872ccfa9eb266cd7.setContent(html_aa59f2dfe8e70a215885b6de3d4fd0b6);
+            
+        
+
+        marker_e1b3d6b7e90c6df720a4b7cac02bcd2f.bindPopup(popup_1304a510c6f66622872ccfa9eb266cd7)
+        ;
+
+        
+    
+    
+            marker_e1b3d6b7e90c6df720a4b7cac02bcd2f.bindTooltip(
+                `<div>
+                     बेंगलुरु (hi)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e1b3d6b7e90c6df720a4b7cac02bcd2f.setIcon(icon_d693c88216dc1cb5e6acbe7702d03a71);
+            
+    
+            var marker_65e35a583ad50b7497e05a31572ab93f = L.marker(
+                [13.72, 80.23],
+                {
+}
+            ).addTo(marker_cluster_7c92e1fa240a14970034f839dfc3cdce);
+        
+    
+            var icon_4d872ca7335cffbea625c3e7a4d31c95 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b9ed2c32848037937ff5c62b1a878726 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_c2c33146e3380163f2362b28d8716dbd = $(`<div id="html_c2c33146e3380163f2362b28d8716dbd" style="width: 100.0%; height: 100.0%;"><b>श्रीहरिकोटा</b> → Sriharikota, Tirupati, Andhra Pradesh, India<br><i>island</i> · in · conf 1.00 · 1 candidate(s)<br><small>13.7200, 80.2300 · hi-2 [hi]</small><br><small>…इसरो का मुख्यालय बेंगलुरु में है और उपग्रह श्रीहरिकोटा से प्रक्षेपित किए जाते हैं; वाराणसी गंगा के तट पर स्थित है।…</small></div>`)[0];
+                popup_b9ed2c32848037937ff5c62b1a878726.setContent(html_c2c33146e3380163f2362b28d8716dbd);
+            
+        
+
+        marker_65e35a583ad50b7497e05a31572ab93f.bindPopup(popup_b9ed2c32848037937ff5c62b1a878726)
+        ;
+
+        
+    
+    
+            marker_65e35a583ad50b7497e05a31572ab93f.bindTooltip(
+                `<div>
+                     श्रीहरिकोटा (hi)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_65e35a583ad50b7497e05a31572ab93f.setIcon(icon_4d872ca7335cffbea625c3e7a4d31c95);
+            
+    
+            var marker_e86c4393b9bdc4e0f912e2db04190dc5 = L.marker(
+                [25.3176, 82.9739],
+                {
+}
+            ).addTo(marker_cluster_7c92e1fa240a14970034f839dfc3cdce);
+        
+    
+            var icon_2ffd61ea8f6cd5c0e8a08b2c8852a74f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9cdc6003da5ed8321d8cb524db623ec8 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_14f7d117881259353490ef298bb94944 = $(`<div id="html_14f7d117881259353490ef298bb94944" style="width: 100.0%; height: 100.0%;"><b>वाराणसी</b> → Varanasi, Uttar Pradesh, India<br><i>city</i> · in · conf 1.00 · 1 candidate(s)<br><small>25.3176, 82.9739 · hi-2 [hi]</small><br><small>…रु में है और उपग्रह श्रीहरिकोटा से प्रक्षेपित किए जाते हैं; वाराणसी गंगा के तट पर स्थित है।…</small></div>`)[0];
+                popup_9cdc6003da5ed8321d8cb524db623ec8.setContent(html_14f7d117881259353490ef298bb94944);
+            
+        
+
+        marker_e86c4393b9bdc4e0f912e2db04190dc5.bindPopup(popup_9cdc6003da5ed8321d8cb524db623ec8)
+        ;
+
+        
+    
+    
+            marker_e86c4393b9bdc4e0f912e2db04190dc5.bindTooltip(
+                `<div>
+                     वाराणसी (hi)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e86c4393b9bdc4e0f912e2db04190dc5.setIcon(icon_2ffd61ea8f6cd5c0e8a08b2c8852a74f);
+            
+    
+            var marker_37fd2415efd9b2147e7ed9bb1867626c = L.marker(
+                [25.3, 83.02],
+                {
+}
+            ).addTo(marker_cluster_7c92e1fa240a14970034f839dfc3cdce);
+        
+    
+            var icon_d2045ba136773f07d92359c1925d0162 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "map-marker",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d2e1d7a1c30254d7b42dabaa8f41b196 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_45a29429f222ea4de4202ab2422e33a6 = $(`<div id="html_45a29429f222ea4de4202ab2422e33a6" style="width: 100.0%; height: 100.0%;"><b>गंगा</b> → Ganga, India<br><i>river</i> · in · conf 1.00 · 1 candidate(s)<br><small>25.3000, 83.0200 · hi-2 [hi]</small><br><small>…ै और उपग्रह श्रीहरिकोटा से प्रक्षेपित किए जाते हैं; वाराणसी गंगा के तट पर स्थित है।…</small></div>`)[0];
+                popup_d2e1d7a1c30254d7b42dabaa8f41b196.setContent(html_45a29429f222ea4de4202ab2422e33a6);
+            
+        
+
+        marker_37fd2415efd9b2147e7ed9bb1867626c.bindPopup(popup_d2e1d7a1c30254d7b42dabaa8f41b196)
+        ;
+
+        
+    
+    
+            marker_37fd2415efd9b2147e7ed9bb1867626c.bindTooltip(
+                `<div>
+                     गंगा (hi)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_37fd2415efd9b2147e7ed9bb1867626c.setIcon(icon_d2045ba136773f07d92359c1925d0162);
+            
+    
+            marker_cluster_7c92e1fa240a14970034f839dfc3cdce.addTo(map_e486bd63b526d93aea317d5779a17f03);
+        
+    
+            var feature_group_605fe769423a388e50cb9b6150d28719 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var rectangle_8d326002cfcf274c74c40e6d9db91918 = L.rectangle(
+                [[48.065, 11.245], [48.092, 11.29]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_8d326002cfcf274c74c40e6d9db91918.bindTooltip(
+                `<div>
+                     Extent: Oberpfaffenhofen
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_9eb321e45b34ed42eb1f7e409f092a94 = L.rectangle(
+                [[48.0616, 11.3608], [48.2482, 11.7229]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_9eb321e45b34ed42eb1f7e409f092a94.bindTooltip(
+                `<div>
+                     Extent: München
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_4584f522b04a5fdca8cd2e8f9e119e51 = L.rectangle(
+                [[47.9, 11.07], [48.08, 11.2]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_4584f522b04a5fdca8cd2e8f9e119e51.bindTooltip(
+                `<div>
+                     Extent: Ammersee
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_9c2e502074d5393e9e91c1dd2d2cef74 = L.rectangle(
+                [[47.27, 8.98], [50.56, 13.84]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_9c2e502074d5393e9e91c1dd2d2cef74.bindTooltip(
+                `<div>
+                     Extent: Bayern
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_e691ca62ce251688b968b0233cfe9840 = L.rectangle(
+                [[12.95, 80.17], [13.23, 80.33]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_e691ca62ce251688b968b0233cfe9840.bindTooltip(
+                `<div>
+                     Extent: Chennai
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_456d254c9ae4a3f07275283c03c1b054 = L.rectangle(
+                [[9.87, 78.07], [9.98, 78.17]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_456d254c9ae4a3f07275283c03c1b054.bindTooltip(
+                `<div>
+                     Extent: Madurai
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_8b4964f243fcd3d5fb63c7e2b092df32 = L.rectangle(
+                [[17.2, 78.2], [17.6, 78.7]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_8b4964f243fcd3d5fb63c7e2b092df32.bindTooltip(
+                `<div>
+                     Extent: Hyderabad
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_c91ee290777beb33150dce4bc14703d1 = L.rectangle(
+                [[8.07, 76.23], [13.56, 80.35]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_c91ee290777beb33150dce4bc14703d1.bindTooltip(
+                `<div>
+                     Extent: Tamil Nadu
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_aaa55ad4e78325aa8572f7b64c5d7507 = L.rectangle(
+                [[33.6, -95.63], [33.73, -95.45]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_aaa55ad4e78325aa8572f7b64c5d7507.bindTooltip(
+                `<div>
+                     Extent: Paris
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_ff933993775273e3b5b4686545ac9565 = L.rectangle(
+                [[25.84, -106.65], [36.5, -93.51]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_ff933993775273e3b5b4686545ac9565.bindTooltip(
+                `<div>
+                     Extent: Texas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_b58caa6feb85ee42cb0fd453a89b9ec5 = L.rectangle(
+                [[32.62, -96.99], [33.02, -96.46]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_b58caa6feb85ee42cb0fd453a89b9ec5.bindTooltip(
+                `<div>
+                     Extent: Dallas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_3ca390c0def78eb83666aa0d0ba98dd8 = L.rectangle(
+                [[50.83, 6.77], [51.08, 7.16]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_3ca390c0def78eb83666aa0d0ba98dd8.bindTooltip(
+                `<div>
+                     Extent: Köln
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_3c1b7cfb320a484a59e6f4b6b07460ac = L.rectangle(
+                [[52.34, 13.09], [52.68, 13.76]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_3c1b7cfb320a484a59e6f4b6b07460ac.bindTooltip(
+                `<div>
+                     Extent: Berlin
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_4ea8d116c969a7c7adfe576b9f1337a6 = L.rectangle(
+                [[52.19, 10.4], [52.34, 10.65]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_4ea8d116c969a7c7adfe576b9f1337a6.bindTooltip(
+                `<div>
+                     Extent: Braunschweig
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_e598553bdd066788a56a1e1e11d87f76 = L.rectangle(
+                [[48.065, 11.245], [48.092, 11.29]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_e598553bdd066788a56a1e1e11d87f76.bindTooltip(
+                `<div>
+                     Extent: Oberpfaffenhofen
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_0f6e96627461015c1cc4a709167bb4e2 = L.rectangle(
+                [[50.0, 14.0], [53.9, 18.0]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_0f6e96627461015c1cc4a709167bb4e2.bindTooltip(
+                `<div>
+                     Extent: Oder
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_990a2c7334be3cd7e3a4b1471b54e453 = L.rectangle(
+                [[52.25, 14.4], [52.4, 14.66]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_990a2c7334be3cd7e3a4b1471b54e453.bindTooltip(
+                `<div>
+                     Extent: Frankfurt (Oder)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_68d5233f007fd32edba1cd93e5ff0315 = L.rectangle(
+                [[52.33, 14.53], [52.37, 14.62]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_68d5233f007fd32edba1cd93e5ff0315.bindTooltip(
+                `<div>
+                     Extent: Słubice
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_02dadb706e504cd0cee200b7b7356a89 = L.rectangle(
+                [[51.36, 11.27], [53.56, 14.77]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_02dadb706e504cd0cee200b7b7356a89.bindTooltip(
+                `<div>
+                     Extent: Brandenburg
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_de5bf9d63536803e49de8ea4313e19bd = L.rectangle(
+                [[12.95, 80.17], [13.23, 80.33]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_de5bf9d63536803e49de8ea4313e19bd.bindTooltip(
+                `<div>
+                     Extent: Chennai
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_efdea26190affa7f0dc7db12fb85aee8 = L.rectangle(
+                [[9.87, 78.07], [9.98, 78.17]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_efdea26190affa7f0dc7db12fb85aee8.bindTooltip(
+                `<div>
+                     Extent: Madurai
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_38b23d4300fb240386e16a68715b305e = L.rectangle(
+                [[10.9, 76.86], [11.13, 77.05]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_38b23d4300fb240386e16a68715b305e.bindTooltip(
+                `<div>
+                     Extent: Coimbatore
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_1a317b863f6018d97863045bec97e572 = L.rectangle(
+                [[13.6, 80.17], [13.83, 80.25]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_1a317b863f6018d97863045bec97e572.bindTooltip(
+                `<div>
+                     Extent: Sriharikota
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_06ae87b28c676cfcfa27d853cd87fab2 = L.rectangle(
+                [[12.83, 77.46], [13.14, 77.78]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_06ae87b28c676cfcfa27d853cd87fab2.bindTooltip(
+                `<div>
+                     Extent: Bengaluru
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_7e2f808cc155001cfee52ff33c5a01c2 = L.rectangle(
+                [[18.89, 72.77], [19.27, 72.99]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_7e2f808cc155001cfee52ff33c5a01c2.bindTooltip(
+                `<div>
+                     Extent: Mumbai
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_417b7d44bac0bd6706c48e8ae045631e = L.rectangle(
+                [[18.41, 73.74], [18.63, 73.98]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_417b7d44bac0bd6706c48e8ae045631e.bindTooltip(
+                `<div>
+                     Extent: Pune
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_12d335e8ce390ee2c5524b9c98438909 = L.rectangle(
+                [[15.6, 72.64], [22.03, 80.89]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_12d335e8ce390ee2c5524b9c98438909.bindTooltip(
+                `<div>
+                     Extent: Maharashtra
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_e2d5e18f5f3bc21c17b7647b91f7e608 = L.rectangle(
+                [[12.83, 77.46], [13.14, 77.78]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_e2d5e18f5f3bc21c17b7647b91f7e608.bindTooltip(
+                `<div>
+                     Extent: Bengaluru
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_417009707f97273213f87f4245bdbeb9 = L.rectangle(
+                [[13.6, 80.17], [13.83, 80.25]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_417009707f97273213f87f4245bdbeb9.bindTooltip(
+                `<div>
+                     Extent: Sriharikota
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_aa3da65b070d066a86e15b58033ebcf3 = L.rectangle(
+                [[25.23, 82.9], [25.38, 83.05]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_aa3da65b070d066a86e15b58033ebcf3.bindTooltip(
+                `<div>
+                     Extent: Varanasi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var rectangle_9ab76a70c58a89815f322f5ae36774fb = L.rectangle(
+                [[21.5, 77.5], [31.0, 89.0]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_605fe769423a388e50cb9b6150d28719);
+        
+    
+            rectangle_9ab76a70c58a89815f322f5ae36774fb.bindTooltip(
+                `<div>
+                     Extent: Ganga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_605fe769423a388e50cb9b6150d28719.addTo(map_e486bd63b526d93aea317d5779a17f03);
+        
+    
+            var layer_control_6701ba44f3473941a6ffddce40300086_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_2850fa3e08663168ace2dc8b2301a36f,
+                },
+                overlays :  {
+                    "Language: en" : marker_cluster_7194e41758f485df733c620e1dc9cf1b,
+                    "Language: de" : marker_cluster_260a99c3e1191190a4273c099490e471,
+                    "Language: ta" : marker_cluster_7645c5f2caa09d006b1a101e99e75988,
+                    "Language: hi" : marker_cluster_7c92e1fa240a14970034f839dfc3cdce,
+                    "Bounding boxes" : feature_group_605fe769423a388e50cb9b6150d28719,
+                },
+            };
+            let layer_control_6701ba44f3473941a6ffddce40300086 = L.control.layers(
+                layer_control_6701ba44f3473941a6ffddce40300086_layers.base_layers,
+                layer_control_6701ba44f3473941a6ffddce40300086_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_e486bd63b526d93aea317d5779a17f03);
+
+        
+</script>
+</html>

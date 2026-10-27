@@ -1,0 +1,8 @@
+{
+  "ner_backend": "gazetteer",
+  "offline": true,
+  "cache_path": "examples/geocode_cache.json",
+  "disambiguation": {
+    "weights": {"admin_context": 0.0, "coherence": 0.0}
+  }
+}

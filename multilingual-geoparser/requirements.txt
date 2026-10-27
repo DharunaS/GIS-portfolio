@@ -1,0 +1,18 @@
+# Core (geocoding, GIS, export)
+geopy>=2.4
+geopandas>=0.14
+shapely>=2.0
+folium>=0.15
+langdetect>=1.0.9
+# Neural NER
+transformers>=4.40
+torch>=2.1
+sentencepiece>=0.1.99
+# Optional classic NLP backends
+spacy>=3.7
+stanza>=1.8
+# Dev
+pytest>=8
+pytest-cov>=5
+ruff>=0.5
+mypy>=1.10

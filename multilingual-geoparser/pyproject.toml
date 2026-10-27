@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multilingual-geoparser"
+version = "1.0.0"
+description = "Multilingual geoparsing (EN/DE/TA/HI): NER, Nominatim geocoding, spatial disambiguation, GeoJSON/Folium export and evaluation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Your Name" }]
+keywords = ["geoparsing", "toponym resolution", "NER", "GIS", "OpenStreetMap", "multilingual"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = [
+    "geopy>=2.4",
+    "geopandas>=0.14",
+    "shapely>=2.0",
+    "folium>=0.15",
+    "langdetect>=1.0.9",
+]
+
+[project.optional-dependencies]
+ml = ["transformers>=4.40", "torch>=2.1", "sentencepiece>=0.1.99"]
+nlp = ["spacy>=3.7", "stanza>=1.8"]
+dev = ["pytest>=8", "pytest-cov>=5", "ruff>=0.5", "mypy>=1.10"]
+
+[project.scripts]
+geoparser = "geoparser.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "D"]
+ignore = ["D105", "D107"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["D"]
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
+warn_unused_ignores = true

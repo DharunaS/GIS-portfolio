@@ -1,0 +1,1411 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2667,
+          48.0742
+        ]
+      },
+      "properties": {
+        "doc_id": "en-1",
+        "language": "en",
+        "mention": "Oberpfaffenhofen",
+        "start": 36,
+        "end": 52,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Oberpfaffenhofen, Weßling, Bavaria, Germany",
+        "place_type": "village",
+        "place_class": "place",
+        "country_code": "de",
+        "osm_id": null,
+        "importance": 0.38,
+        "population": 2000,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "The DLR Earth Observation Center in Oberpfaffenhofen, near Munich, processes Sentinel-2 scenes of the Ammersee a",
+        "score_breakdown": {
+          "importance": 0.38,
+          "population": 0.4402,
+          "type_prior": 0.45,
+          "name_match": 1.0,
+          "admin_context": 1.0,
+          "coherence": 0.9418,
+          "total": 0.6668
+        }
+      },
+      "bbox": [
+        11.245,
+        48.065,
+        11.29,
+        48.092
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5754,
+          48.1371
+        ]
+      },
+      "properties": {
+        "doc_id": "en-1",
+        "language": "en",
+        "mention": "Munich",
+        "start": 59,
+        "end": 65,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "München, Bavaria, Germany",
+        "place_type": "city",
+        "place_class": "place",
+        "country_code": "de",
+        "osm_id": null,
+        "importance": 0.8,
+        "population": 1512491,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "The DLR Earth Observation Center in Oberpfaffenhofen, near Munich, processes Sentinel-2 scenes of the Ammersee and the rest o",
+        "score_breakdown": {
+          "importance": 0.8,
+          "population": 0.824,
+          "type_prior": 0.95,
+          "name_match": 1.0,
+          "admin_context": 1.0,
+          "coherence": 0.9109,
+          "total": 0.9015
+        }
+      },
+      "bbox": [
+        11.3608,
+        48.0616,
+        11.7229,
+        48.2482
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1167,
+          48.0
+        ]
+      },
+      "properties": {
+        "doc_id": "en-1",
+        "language": "en",
+        "mention": "Ammersee",
+        "start": 102,
+        "end": 110,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Ammersee, Bavaria, Germany",
+        "place_type": "water",
+        "place_class": "natural",
+        "country_code": "de",
+        "osm_id": null,
+        "importance": 0.5,
+        "population": null,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "affenhofen, near Munich, processes Sentinel-2 scenes of the Ammersee and the rest of Bavaria.",
+        "score_breakdown": {
+          "importance": 0.5,
+          "population": 0.0,
+          "type_prior": 0.5,
+          "name_match": 1.0,
+          "admin_context": 1.0,
+          "coherence": 0.9109,
+          "total": 0.6616
+        }
+      },
+      "bbox": [
+        11.07,
+        47.9,
+        11.2,
+        48.08
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4039,
+          48.9468
+        ]
+      },
+      "properties": {
+        "doc_id": "en-1",
+        "language": "en",
+        "mention": "Bavaria",
+        "start": 127,
+        "end": 134,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Bayern, Germany",
+        "place_type": "state",
+        "place_class": "boundary",
+        "country_code": "de",
+        "osm_id": null,
+        "importance": 0.78,
+        "population": 13369393,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "processes Sentinel-2 scenes of the Ammersee and the rest of Bavaria.",
+        "score_breakdown": {
+          "importance": 0.78,
+          "population": 0.9501,
+          "type_prior": 0.9,
+          "name_match": 1.0,
+          "admin_context": 0.0,
+          "coherence": 0.7836,
+          "total": 0.7316
+        }
+      },
+      "bbox": [
+        8.98,
+        47.27,
+        13.84,
+        50.56
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2707,
+          13.0827
+        ]
+      },
+      "properties": {
+        "doc_id": "en-2",
+        "language": "en",
+        "mention": "Chennai",
+        "start": 47,
+        "end": 54,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Chennai, Tamil Nadu, India",
+        "place_type": "city",
+        "place_class": "place",
+        "country_code": "in",
+        "osm_id": null,
+        "importance": 0.72,
+        "population": 7088000,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "After the cyclone, relief teams travelled from Chennai to Madurai and Kanchipuram, while analysts in Hyderabad map",
+        "score_breakdown": {
+          "importance": 0.72,
+          "population": 0.9134,
+          "type_prior": 0.95,
+          "name_match": 1.0,
+          "admin_context": 1.0,
+          "coherence": 0.3481,
+          "total": 0.8021
+        }
+      },
+      "bbox": [
+        80.17,
+        12.95,
+        80.33,
+        13.23
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1198,
+          9.9252
+        ]
+      },
+      "properties": {
+        "doc_id": "en-2",
+        "language": "en",
+        "mention": "Madurai",
+        "start": 58,
+        "end": 65,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Madurai, Tamil Nadu, India",
+        "place_type": "city",
+        "place_class": "place",
+        "country_code": "in",
+        "osm_id": null,
+        "importance": 0.62,
+        "population": 1017865,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "After the cyclone, relief teams travelled from Chennai to Madurai and Kanchipuram, while analysts in Hyderabad mapped flood e",
+        "score_breakdown": {
+          "importance": 0.62,
+          "population": 0.801,
+          "type_prior": 0.95,
+          "name_match": 1.0,
+          "admin_context": 1.0,
+          "coherence": 0.3481,
+          "total": 0.7608
+        }
+      },
+      "bbox": [
+        78.07,
+        9.87,
+        78.17,
+        9.98
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4867,
+          17.385
+        ]
+      },
+      "properties": {
+        "doc_id": "en-2",
+        "language": "en",
+        "mention": "Hyderabad",
+        "start": 101,
+        "end": 110,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Hyderabad, Telangana, India",
+        "place_type": "city",
+        "place_class": "place",
+        "country_code": "in",
+        "osm_id": null,
+        "importance": 0.72,
+        "population": 6809970,
+        "confidence": 0.6491,
+        "n_candidates": 2,
+        "context": " from Chennai to Madurai and Kanchipuram, while analysts in Hyderabad mapped flood extents across Tamil Nadu.",
+        "score_breakdown": {
+          "importance": 0.72,
+          "population": 0.9111,
+          "type_prior": 0.95,
+          "name_match": 1.0,
+          "admin_context": 0.0,
+          "coherence": 0.1652,
+          "total": 0.6244
+        }
+      },
+      "bbox": [
+        78.2,
+        17.2,
+        78.7,
+        17.6
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3665,
+          10.9094
+        ]
+      },
+      "properties": {
+        "doc_id": "en-2",
+        "language": "en",
+        "mention": "Tamil Nadu",
+        "start": 139,
+        "end": 149,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Tamil Nadu, India",
+        "place_type": "state",
+        "place_class": "boundary",
+        "country_code": "in",
+        "osm_id": null,
+        "importance": 0.74,
+        "population": 72147030,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "am, while analysts in Hyderabad mapped flood extents across Tamil Nadu.",
+        "score_breakdown": {
+          "importance": 0.74,
+          "population": 1.0,
+          "type_prior": 0.9,
+          "name_match": 1.0,
+          "admin_context": 0.0,
+          "coherence": 0.4513,
+          "total": 0.6747
+        }
+      },
+      "bbox": [
+        76.23,
+        8.07,
+        80.35,
+        13.56
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5555,
+          33.6609
+        ]
+      },
+      "properties": {
+        "doc_id": "en-3",
+        "language": "en",
+        "mention": "Paris",
+        "start": 22,
+        "end": 27,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Paris, Lamar County, Texas, United States",
+        "place_type": "town",
+        "place_class": "place",
+        "country_code": "us",
+        "osm_id": null,
+        "importance": 0.52,
+        "population": 24476,
+        "confidence": 0.6152,
+        "n_candidates": 3,
+        "context": "The storm passed over Paris, Texas, about 160 km north-east of Dallas.",
+        "score_breakdown": {
+          "importance": 0.52,
+          "population": 0.5852,
+          "type_prior": 0.75,
+          "name_match": 1.0,
+          "admin_context": 1.0,
+          "coherence": 0.51,
+          "total": 0.7035
+        }
+      },
+      "bbox": [
+        -95.63,
+        33.6,
+        -95.45,
+        33.73
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5456,
+          31.2639
+        ]
+      },
+      "properties": {
+        "doc_id": "en-3",
+        "language": "en",
+        "mention": "Texas",
+        "start": 29,
+        "end": 34,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Texas, United States",
+        "place_type": "state",
+        "place_class": "boundary",
+        "country_code": "us",
+        "osm_id": null,
+        "importance": 0.8,
+        "population": 29145505,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "The storm passed over Paris, Texas, about 160 km north-east of Dallas.",
+        "score_breakdown": {
+          "importance": 0.8,
+          "population": 0.9953,
+          "type_prior": 0.9,
+          "name_match": 1.0,
+          "admin_context": 0.0,
+          "coherence": 0.4593,
+          "total": 0.6934
+        }
+      },
+      "bbox": [
+        -106.65,
+        25.84,
+        -93.51,
+        36.5
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7969,
+          32.7763
+        ]
+      },
+      "properties": {
+        "doc_id": "en-3",
+        "language": "en",
+        "mention": "Dallas",
+        "start": 63,
+        "end": 69,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Dallas, Texas, United States",
+        "place_type": "city",
+        "place_class": "place",
+        "country_code": "us",
+        "osm_id": null,
+        "importance": 0.72,
+        "population": 1304379,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": " storm passed over Paris, Texas, about 160 km north-east of Dallas.",
+        "score_breakdown": {
+          "importance": 0.72,
+          "population": 0.8154,
+          "type_prior": 0.95,
+          "name_match": 1.0,
+          "admin_context": 1.0,
+          "coherence": 0.6163,
+          "total": 0.8325
+        }
+      },
+      "bbox": [
+        -96.99,
+        32.62,
+        -96.46,
+        33.02
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9599,
+          50.9384
+        ]
+      },
+      "properties": {
+        "doc_id": "de-1",
+        "language": "de",
+        "mention": "Köln",
+        "start": 69,
+        "end": 73,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Köln, North Rhine-Westphalia, Germany",
+        "place_type": "city",
+        "place_class": "place",
+        "country_code": "de",
+        "osm_id": null,
+        "importance": 0.76,
+        "population": 1083498,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "che Zentrum für Luft- und Raumfahrt hat seinen Hauptsitz in Köln und betreibt Standorte in Berlin, Braunschweig und Oberpfaf",
+        "score_breakdown": {
+          "importance": 0.76,
+          "population": 0.8046,
+          "type_prior": 0.95,
+          "name_match": 1.0,
+          "admin_context": 0.0,
+          "coherence": 0.3287,
+          "total": 0.6503
+        }
+      },
+      "bbox": [
+        6.77,
+        50.83,
+        7.16,
+        51.08
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3889,
+          52.517
+        ]
+      },
+      "properties": {
+        "doc_id": "de-1",
+        "language": "de",
+        "mention": "Berlin",
+        "start": 100,
+        "end": 106,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Berlin, Germany",
+        "place_type": "city",
+        "place_class": "place",
+        "country_code": "de",
+        "osm_id": null,
+        "importance": 0.85,
+        "population": 3755251,
+        "confidence": 0.8959,
+        "n_candidates": 2,
+        "context": "ahrt hat seinen Hauptsitz in Köln und betreibt Standorte in Berlin, Braunschweig und Oberpfaffenhofen.",
+        "score_breakdown": {
+          "importance": 0.85,
+          "population": 0.8766,
+          "type_prior": 0.95,
+          "name_match": 1.0,
+          "admin_context": 0.0,
+          "coherence": 0.3041,
+          "total": 0.6808
+        }
+      },
+      "bbox": [
+        13.09,
+        52.34,
+        13.76,
+        52.68
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5236,
+          52.2646
+        ]
+      },
+      "properties": {
+        "doc_id": "de-1",
+        "language": "de",
+        "mention": "Braunschweig",
+        "start": 108,
+        "end": 120,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Braunschweig, Lower Saxony, Germany",
+        "place_type": "city",
+        "place_class": "place",
+        "country_code": "de",
+        "osm_id": null,
+        "importance": 0.63,
+        "population": 251364,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": " seinen Hauptsitz in Köln und betreibt Standorte in Berlin, Braunschweig und Oberpfaffenhofen.",
+        "score_breakdown": {
+          "importance": 0.63,
+          "population": 0.72,
+          "type_prior": 0.95,
+          "name_match": 1.0,
+          "admin_context": 0.0,
+          "coherence": 0.4881,
+          "total": 0.6267
+        }
+      },
+      "bbox": [
+        10.4,
+        52.19,
+        10.65,
+        52.34
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2667,
+          48.0742
+        ]
+      },
+      "properties": {
+        "doc_id": "de-1",
+        "language": "de",
+        "mention": "Oberpfaffenhofen",
+        "start": 125,
+        "end": 141,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Oberpfaffenhofen, Weßling, Bavaria, Germany",
+        "place_type": "village",
+        "place_class": "place",
+        "country_code": "de",
+        "osm_id": null,
+        "importance": 0.38,
+        "population": 2000,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": " in Köln und betreibt Standorte in Berlin, Braunschweig und Oberpfaffenhofen.",
+        "score_breakdown": {
+          "importance": 0.38,
+          "population": 0.4402,
+          "type_prior": 0.45,
+          "name_match": 1.0,
+          "admin_context": 0.0,
+          "coherence": 0.3096,
+          "total": 0.422
+        }
+      },
+      "bbox": [
+        11.245,
+        48.065,
+        11.29,
+        48.092
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6,
+          52.6
+        ]
+      },
+      "properties": {
+        "doc_id": "de-2",
+        "language": "de",
+        "mention": "Oder",
+        "start": 22,
+        "end": 26,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Oder, Germany",
+        "place_type": "river",
+        "place_class": "waterway",
+        "country_code": "de",
+        "osm_id": null,
+        "importance": 0.58,
+        "population": null,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "Das Hochwasser an der Oder erreichte Frankfurt und Słubice; Brandenburg rief den Katas",
+        "score_breakdown": {
+          "importance": 0.58,
+          "population": 0.0,
+          "type_prior": 0.55,
+          "name_match": 1.0,
+          "admin_context": 1.0,
+          "coherence": 0.9316,
+          "total": 0.6962
+        }
+      },
+      "bbox": [
+        14.0,
+        50.0,
+        18.0,
+        53.9
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5506,
+          52.3471
+        ]
+      },
+      "properties": {
+        "doc_id": "de-2",
+        "language": "de",
+        "mention": "Frankfurt",
+        "start": 37,
+        "end": 46,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Frankfurt (Oder), Brandenburg, Germany",
+        "place_type": "city",
+        "place_class": "place",
+        "country_code": "de",
+        "osm_id": null,
+        "importance": 0.62,
+        "population": 57015,
+        "confidence": 0.8524,
+        "n_candidates": 2,
+        "context": "Das Hochwasser an der Oder erreichte Frankfurt und Słubice; Brandenburg rief den Katastrophenfall aus.",
+        "score_breakdown": {
+          "importance": 0.62,
+          "population": 0.6341,
+          "type_prior": 0.95,
+          "name_match": 1.0,
+          "admin_context": 1.0,
+          "coherence": 0.9316,
+          "total": 0.8317
+        }
+      },
+      "bbox": [
+        14.4,
+        52.25,
+        14.66,
+        52.4
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5606,
+          52.3502
+        ]
+      },
+      "properties": {
+        "doc_id": "de-2",
+        "language": "de",
+        "mention": "Słubice",
+        "start": 51,
+        "end": 58,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Słubice, Lubusz Voivodeship, Poland",
+        "place_type": "town",
+        "place_class": "place",
+        "country_code": "pl",
+        "osm_id": null,
+        "importance": 0.45,
+        "population": 16000,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "Das Hochwasser an der Oder erreichte Frankfurt und Słubice; Brandenburg rief den Katastrophenfall aus.",
+        "score_breakdown": {
+          "importance": 0.45,
+          "population": 0.5606,
+          "type_prior": 0.75,
+          "name_match": 1.0,
+          "admin_context": 1.0,
+          "coherence": 0.9326,
+          "total": 0.7434
+        }
+      },
+      "bbox": [
+        14.53,
+        52.33,
+        14.62,
+        52.37
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5316,
+          52.4125
+        ]
+      },
+      "properties": {
+        "doc_id": "de-2",
+        "language": "de",
+        "mention": "Brandenburg",
+        "start": 60,
+        "end": 71,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Brandenburg, Germany",
+        "place_type": "state",
+        "place_class": "boundary",
+        "country_code": "de",
+        "osm_id": null,
+        "importance": 0.74,
+        "population": 2573135,
+        "confidence": 0.7779,
+        "n_candidates": 2,
+        "context": "Das Hochwasser an der Oder erreichte Frankfurt und Słubice; Brandenburg rief den Katastrophenfall aus.",
+        "score_breakdown": {
+          "importance": 0.74,
+          "population": 0.8547,
+          "type_prior": 0.9,
+          "name_match": 1.0,
+          "admin_context": 0.0,
+          "coherence": 0.7084,
+          "total": 0.6987
+        }
+      },
+      "bbox": [
+        11.27,
+        51.36,
+        14.77,
+        53.56
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2707,
+          13.0827
+        ]
+      },
+      "properties": {
+        "doc_id": "ta-1",
+        "language": "ta",
+        "mention": "சென்னையில்",
+        "start": 0,
+        "end": 10,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Chennai, Tamil Nadu, India",
+        "place_type": "city",
+        "place_class": "place",
+        "country_code": "in",
+        "osm_id": null,
+        "importance": 0.72,
+        "population": 7088000,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "சென்னையில் பெய்த கனமழையால் மதுரை மற்றும் கோயம்புத்தூர் பகுதிகளில் வெள்",
+        "score_breakdown": {
+          "importance": 0.72,
+          "population": 0.9134,
+          "type_prior": 0.95,
+          "name_match": 1.0,
+          "admin_context": 0.0,
+          "coherence": 0.3458,
+          "total": 0.6517
+        }
+      },
+      "bbox": [
+        80.17,
+        12.95,
+        80.33,
+        13.23
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1198,
+          9.9252
+        ]
+      },
+      "properties": {
+        "doc_id": "ta-1",
+        "language": "ta",
+        "mention": "மதுரை",
+        "start": 27,
+        "end": 32,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Madurai, Tamil Nadu, India",
+        "place_type": "city",
+        "place_class": "place",
+        "country_code": "in",
+        "osm_id": null,
+        "importance": 0.62,
+        "population": 1017865,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "சென்னையில் பெய்த கனமழையால் மதுரை மற்றும் கோயம்புத்தூர் பகுதிகளில் வெள்ளம் ஏற்பட்டது.",
+        "score_breakdown": {
+          "importance": 0.62,
+          "population": 0.801,
+          "type_prior": 0.95,
+          "name_match": 1.0,
+          "admin_context": 0.0,
+          "coherence": 0.4736,
+          "total": 0.6296
+        }
+      },
+      "bbox": [
+        78.07,
+        9.87,
+        78.17,
+        9.98
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9558,
+          11.0168
+        ]
+      },
+      "properties": {
+        "doc_id": "ta-1",
+        "language": "ta",
+        "mention": "கோயம்புத்தூர்",
+        "start": 41,
+        "end": 54,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Coimbatore, Tamil Nadu, India",
+        "place_type": "city",
+        "place_class": "place",
+        "country_code": "in",
+        "osm_id": null,
+        "importance": 0.63,
+        "population": 1050721,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "சென்னையில் பெய்த கனமழையால் மதுரை மற்றும் கோயம்புத்தூர் பகுதிகளில் வெள்ளம் ஏற்பட்டது.",
+        "score_breakdown": {
+          "importance": 0.63,
+          "population": 0.8029,
+          "type_prior": 0.95,
+          "name_match": 1.0,
+          "admin_context": 0.0,
+          "coherence": 0.4704,
+          "total": 0.6323
+        }
+      },
+      "bbox": [
+        76.86,
+        10.9,
+        77.05,
+        11.13
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.23,
+          13.72
+        ]
+      },
+      "properties": {
+        "doc_id": "ta-2",
+        "language": "ta",
+        "mention": "ஸ்ரீஹரிகோட்டாவிலிருந்து",
+        "start": 6,
+        "end": 29,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Sriharikota, Tirupati, Andhra Pradesh, India",
+        "place_type": "island",
+        "place_class": "place",
+        "country_code": "in",
+        "osm_id": null,
+        "importance": 0.5,
+        "population": null,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "இஸ்ரோ ஸ்ரீஹரிகோட்டாவிலிருந்து செயற்கைக்கோளை ஏவியது; பெங்களூரில் உள்ள கட்டுப்பாட்டு மையம் ",
+        "score_breakdown": {
+          "importance": 0.5,
+          "population": 0.0,
+          "type_prior": 0.6,
+          "name_match": 1.0,
+          "admin_context": 0.0,
+          "coherence": 0.4759,
+          "total": 0.4614
+        }
+      },
+      "bbox": [
+        80.17,
+        13.6,
+        80.25,
+        13.83
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5946,
+          12.9716
+        ]
+      },
+      "properties": {
+        "doc_id": "ta-2",
+        "language": "ta",
+        "mention": "பெங்களூரில்",
+        "start": 52,
+        "end": 63,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Bengaluru, Karnataka, India",
+        "place_type": "city",
+        "place_class": "place",
+        "country_code": "in",
+        "osm_id": null,
+        "importance": 0.75,
+        "population": 8443675,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "இஸ்ரோ ஸ்ரீஹரிகோட்டாவிலிருந்து செயற்கைக்கோளை ஏவியது; பெங்களூரில் உள்ள கட்டுப்பாட்டு மையம் அதைக் கண்காணித்தது.",
+        "score_breakdown": {
+          "importance": 0.75,
+          "population": 0.9235,
+          "type_prior": 0.95,
+          "name_match": 1.0,
+          "admin_context": 0.0,
+          "coherence": 0.4759,
+          "total": 0.6812
+        }
+      },
+      "bbox": [
+        77.46,
+        12.83,
+        77.78,
+        13.14
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8777,
+          19.076
+        ]
+      },
+      "properties": {
+        "doc_id": "hi-1",
+        "language": "hi",
+        "mention": "मुंबई",
+        "start": 19,
+        "end": 24,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Mumbai, Maharashtra, India",
+        "place_type": "city",
+        "place_class": "place",
+        "country_code": "in",
+        "osm_id": null,
+        "importance": 0.8,
+        "population": 12442373,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "भारी बारिश के कारण मुंबई और पुणे में बाढ़ आ गई, जबकि महाराष्ट्र सरकार ने राहत कार्य ",
+        "score_breakdown": {
+          "importance": 0.8,
+          "population": 0.946,
+          "type_prior": 0.95,
+          "name_match": 1.0,
+          "admin_context": 1.0,
+          "coherence": 0.5865,
+          "total": 0.8651
+        }
+      },
+      "bbox": [
+        72.77,
+        18.89,
+        72.99,
+        19.27
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8567,
+          18.5204
+        ]
+      },
+      "properties": {
+        "doc_id": "hi-1",
+        "language": "hi",
+        "mention": "पुणे",
+        "start": 28,
+        "end": 32,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Pune, Maharashtra, India",
+        "place_type": "city",
+        "place_class": "place",
+        "country_code": "in",
+        "osm_id": null,
+        "importance": 0.7,
+        "population": 3124458,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "भारी बारिश के कारण मुंबई और पुणे में बाढ़ आ गई, जबकि महाराष्ट्र सरकार ने राहत कार्य शुरू किय",
+        "score_breakdown": {
+          "importance": 0.7,
+          "population": 0.866,
+          "type_prior": 0.95,
+          "name_match": 1.0,
+          "admin_context": 1.0,
+          "coherence": 0.6388,
+          "total": 0.8349
+        }
+      },
+      "bbox": [
+        73.74,
+        18.41,
+        73.98,
+        18.63
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7139,
+          19.7515
+        ]
+      },
+      "properties": {
+        "doc_id": "hi-1",
+        "language": "hi",
+        "mention": "महाराष्ट्र",
+        "start": 53,
+        "end": 63,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Maharashtra, India",
+        "place_type": "state",
+        "place_class": "boundary",
+        "country_code": "in",
+        "osm_id": null,
+        "importance": 0.76,
+        "population": 112374333,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "भारी बारिश के कारण मुंबई और पुणे में बाढ़ आ गई, जबकि महाराष्ट्र सरकार ने राहत कार्य शुरू किया।",
+        "score_breakdown": {
+          "importance": 0.76,
+          "population": 1.0,
+          "type_prior": 0.9,
+          "name_match": 1.0,
+          "admin_context": 0.0,
+          "coherence": 0.5059,
+          "total": 0.6889
+        }
+      },
+      "bbox": [
+        72.64,
+        15.6,
+        80.89,
+        22.03
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5946,
+          12.9716
+        ]
+      },
+      "properties": {
+        "doc_id": "hi-2",
+        "language": "hi",
+        "mention": "बेंगलुरु",
+        "start": 17,
+        "end": 25,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Bengaluru, Karnataka, India",
+        "place_type": "city",
+        "place_class": "place",
+        "country_code": "in",
+        "osm_id": null,
+        "importance": 0.75,
+        "population": 8443675,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "इसरो का मुख्यालय बेंगलुरु में है और उपग्रह श्रीहरिकोटा से प्रक्षेपित किए जाते हैं; वा",
+        "score_breakdown": {
+          "importance": 0.75,
+          "population": 0.9235,
+          "type_prior": 0.95,
+          "name_match": 1.0,
+          "admin_context": 0.0,
+          "coherence": 0.0245,
+          "total": 0.6135
+        }
+      },
+      "bbox": [
+        77.46,
+        12.83,
+        77.78,
+        13.14
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.23,
+          13.72
+        ]
+      },
+      "properties": {
+        "doc_id": "hi-2",
+        "language": "hi",
+        "mention": "श्रीहरिकोटा",
+        "start": 43,
+        "end": 54,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Sriharikota, Tirupati, Andhra Pradesh, India",
+        "place_type": "island",
+        "place_class": "place",
+        "country_code": "in",
+        "osm_id": null,
+        "importance": 0.5,
+        "population": null,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "इसरो का मुख्यालय बेंगलुरु में है और उपग्रह श्रीहरिकोटा से प्रक्षेपित किए जाते हैं; वाराणसी गंगा के तट पर स्थित है।",
+        "score_breakdown": {
+          "importance": 0.5,
+          "population": 0.0,
+          "type_prior": 0.6,
+          "name_match": 1.0,
+          "admin_context": 0.0,
+          "coherence": 0.0369,
+          "total": 0.3955
+        }
+      },
+      "bbox": [
+        80.17,
+        13.6,
+        80.25,
+        13.83
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.9739,
+          25.3176
+        ]
+      },
+      "properties": {
+        "doc_id": "hi-2",
+        "language": "hi",
+        "mention": "वाराणसी",
+        "start": 83,
+        "end": 90,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Varanasi, Uttar Pradesh, India",
+        "place_type": "city",
+        "place_class": "place",
+        "country_code": "in",
+        "osm_id": null,
+        "importance": 0.66,
+        "population": 1198491,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "रु में है और उपग्रह श्रीहरिकोटा से प्रक्षेपित किए जाते हैं; वाराणसी गंगा के तट पर स्थित है।",
+        "score_breakdown": {
+          "importance": 0.66,
+          "population": 0.8105,
+          "type_prior": 0.95,
+          "name_match": 1.0,
+          "admin_context": 0.0,
+          "coherence": 0.0368,
+          "total": 0.5771
+        }
+      },
+      "bbox": [
+        82.9,
+        25.23,
+        83.05,
+        25.38
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.02,
+          25.3
+        ]
+      },
+      "properties": {
+        "doc_id": "hi-2",
+        "language": "hi",
+        "mention": "गंगा",
+        "start": 91,
+        "end": 95,
+        "ner_label": "LOC",
+        "ner_score": 1.0,
+        "ner_source": "gazetteer",
+        "resolved_name": "Ganga, India",
+        "place_type": "river",
+        "place_class": "waterway",
+        "country_code": "in",
+        "osm_id": null,
+        "importance": 0.7,
+        "population": null,
+        "confidence": 1.0,
+        "n_candidates": 1,
+        "context": "ै और उपग्रह श्रीहरिकोटा से प्रक्षेपित किए जाते हैं; वाराणसी गंगा के तट पर स्थित है।",
+        "score_breakdown": {
+          "importance": 0.7,
+          "population": 0.0,
+          "type_prior": 0.55,
+          "name_match": 1.0,
+          "admin_context": 0.0,
+          "coherence": 0.0369,
+          "total": 0.448
+        }
+      },
+      "bbox": [
+        77.5,
+        21.5,
+        89.0,
+        31.0
+      ]
+    }
+  ],
+  "bbox": [
+    -98.5456,
+    9.9252,
+    83.02,
+    52.6
+  ],
+  "metadata": {
+    "n_resolved": 31,
+    "n_unresolved": 0,
+    "unresolved": []
+  }
+}
